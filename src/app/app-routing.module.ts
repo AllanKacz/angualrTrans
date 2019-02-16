@@ -8,9 +8,9 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
 const routes: Routes = [
 
   { path: '',      component: SidexComponent },
-  { path: 'sidey',      component: SideyComponent }
+  { path: 'sidey',      component: SideyComponent },
   // { path: '',   redirectTo: '/sidex', pathMatch: 'full' },
-  // { path: '**', component: PageNotFoundComponent }
+   { path: '**', component: PageNotFoundComponent }
 ];
 
 @NgModule({
